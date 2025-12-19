@@ -35,8 +35,13 @@ import right_arrow from './right-arrow.png';
 import send_icon from './send-icon.png';
 import right_arrow_bold from './right-arrow-bold.png';
 import right_arrow_bold_dark from './right-arrow-bold-dark.png';
+import profile_me from './aksha2.jpg'
+import me from './me.jpg'
+
 
 export const assets = {
+    me,
+    profile_me,
     user_image,
     code_icon,
     code_icon_dark,
@@ -100,10 +105,10 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Web design', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Frontened', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Backend', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.ui_icon, title: 'Microsoft D365', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.graphics_icon, title: 'Full Stack Development', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [
